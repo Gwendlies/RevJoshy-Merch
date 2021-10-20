@@ -1,0 +1,70 @@
+body,
+html	{
+	background-color: black;
+	font-family: 'Permanent Marker', cursive; 
+}
+
+header	{
+	background-color: rgba(135, 5, 14);
+}
+
+.btn	{
+	max-width: 300px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	justify-content: center;
+}
+
+h1 	{
+	justify-content: center;
+	color: black;
+	text-shadow: -1px 0 #44a83b, 0 1px #44a83b, 1px 0 #44a83b, 0 -1px #44a83b;
+}
+
+
+.products	{
+	padding: 20px;
+	background-color: rgba(135, 5, 14);
+	color: green;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.hats, .shirts, .others	{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: 1fr;
+	justify-content: end;
+}
+
+.hats img	{
+	width: 150px;
+	height: 150px;
+}
+
+.shirts img	{
+	width: 150px;
+	height: 150px;
+}
+
+.others	img	{
+	width: 150px;
+	height: 150px;
+}
+
+
+.shirts	{
+	padding: 5px;
+	margin: 5px;
+}
+footer	{
+	background-color: rgba(135, 5, 14);
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: -1px 0 #44a83b, 0 1px #44a83b, 1px 0 #44a83b, 0 -1px #44a83b;
+}
